@@ -1,0 +1,71 @@
+footer {
+    position: sticky;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    bottom: 0;
+}
+
+#copyright{                 
+    transition: transform 50s ease-in-out;
+}
+
+#copyright:hover {
+    transform: rotateY(-36000deg);
+   
+}
+
+body{
+    background-color: #f4d292;
+}
+h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#gallows{
+    width: 336px;
+    margin:  auto;
+
+}
+.hangDiv{
+    float: left;
+    display: inline;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#hangStart{
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    margin-left: 130px;
+}
+
+#hintDisplay{
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+.brownHang{
+    background-color: saddlebrown;
+}
+
+#specHang{
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.thinHang{
+    height: 21px;
+}
+
+#hangReload{
+    color: aqua;
+}
