@@ -19,6 +19,10 @@
         <div><label for="scoreSim">Level :</label><input type="text" id = "scoreSim" value = "1" readonly></div>
         <h3 id = "simHint"></h3>
     </main>
+        
+    <?php
+include("inc/footer.php");
+?>
     <script src="scripts/anotherSimon.js"></script>
 </body>
 </html>

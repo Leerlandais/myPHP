@@ -59,3 +59,8 @@ input {
     margin: 0 auto;
     width: max-content;
 }
+
+#home{
+    display: block;
+    font-size: 24px;
+}

@@ -3,6 +3,22 @@ body {
     font-family: cursive;
     font-size: 12px;
 }
+footer {
+    position: sticky;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    bottom: 0;
+}
+
+#copyright{                 
+    transition: transform 50s ease-in-out;
+}
+
+#copyright:hover {
+    transform: rotateY(-36000deg);
+   
+}
 
 h1 {
     text-align: center;
@@ -36,4 +52,9 @@ input {
     height: 40px;
     text-align: center;
     
+}
+
+#home{
+    display: block;
+    font-size: 24px;
 }

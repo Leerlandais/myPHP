@@ -18,13 +18,9 @@
         <li>Or here to see my <a href="?section=git">Git Guide</a></li>
     </ul>
     </div>
-    <footer> 
-        <hr>
-        <h4 id="copyright">
-            &copy; Lee Brennan
-        </h4>
-        <hr>    
-       </footer>
+    <?php
+include("inc/footer.php");
+?>
 <script src="scripts/script.js"></script>
 </body>
 </html>

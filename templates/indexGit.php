@@ -48,11 +48,9 @@
         </table>
     </div>
     </div>
-        <footer>
-            <hr>
-            <h4 id="copyright">&copy; Lee Brennan</h4>
-            <hr>
-        </footer>
+    <?php
+include("inc/footer.php");
+?>
 <script src="scripts/git.js"></script>
 </body>
 </html>
